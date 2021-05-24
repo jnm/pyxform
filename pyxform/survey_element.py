@@ -219,7 +219,7 @@ class SurveyElement(dict):
         else:
             return lineage[0].name
 
-    def _delete_keys_from_dict(self, dictionary: dict, keys: list):
+    def _delete_keys_from_dict(self, dictionary, keys):
         """
         Deletes a list of keys from a dictionary.
         Credits: https://stackoverflow.com/a/49723101

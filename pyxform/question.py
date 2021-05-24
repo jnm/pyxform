@@ -248,7 +248,7 @@ class MultipleChoiceQuestion(Question):
                     # Choices must have a value. Filter out repeat instances without
                     # an answer for the linked question
                     name = path[-1]
-                    choice_filter = f"./{name} != ''"
+                    choice_filter = "./{name} != ''".format(name=name)
             else:
                 nodeset = "instance('" + itemset + "')/root/item"
 
