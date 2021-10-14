@@ -9,9 +9,9 @@ from functools import reduce
 from io import BytesIO
 
 import unicodecsv as csv
-import xlrd
-from xlrd import XLRDError
-from xlrd.xldate import XLDateAmbiguous
+import excelrd as xlrd
+from excelrd import XLRDError
+from excelrd.xldate import XLDateAmbiguous
 
 from pyxform import constants
 from pyxform.errors import PyXFormError

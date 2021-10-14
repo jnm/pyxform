@@ -10,7 +10,7 @@ import re
 from xml.dom.minidom import Element, Text, parseString
 
 import unicodecsv as csv
-import xlrd
+import excelrd as xlrd
 
 try:
     from json.decoder import JSONDecodeError

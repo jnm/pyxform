@@ -4,7 +4,7 @@ Test xls2json_backends module functionality.
 """
 from unittest import TestCase
 
-import xlrd
+import excelrd as xlrd
 
 from pyxform.xls2json_backends import xls_value_to_unicode
 
